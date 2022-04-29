@@ -11,31 +11,52 @@
 </head>
 
 <body>
-    <form action="">
+    <h3>Assalomu alaykum hurmatli innovatorlar!</h3>
+    <p>
+        Siz <b>"Alamud Team"</b> tomonidan yaratilgan innovatsion loyihalar topshirish uchun mo'ljallangan rasmiy web
+        sahifadasiz.
+        Innovatsion yoki Start Up loyihalaringiz uchun moliyaviy ko'mak olishni hohlaysizmi?<br><br>
+        Biz sizga yordam beramiz.
+        Buning uchun pastdagi ushbu so'rovnamani to'ldiring.
+        Qisqa muddat ichida "Alamud Team" ma'sullari siz bilan bog'lanishadi.</p>
+    <form action="" id="form1">
+        <label for="basic-url" class="form-label">Loyiha nomi:</label>
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Loyiha nomi:</span>
-            <input type="text" class="form-control" placeholder="*loyiha nomi" aria-label="Username" aria-describedby="basic-addon1">
+            <input required placeholder="*loyiha nomi" type="text" class="form-control" id="project-name"
+                aria-describedby="basic-addon3">
         </div>
+
+        <label for="basic-url" class="form-label">Loyiha yo'nalishi:</label>
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Loyiha yo'nalishi:</span>
-            <input type="text" class="form-control" placeholder="misol uchun: talim, dasturlash, meditsina va h.z" aria-label="Username" aria-describedby="basic-addon1">
+            <input required placeholder="misol uchun: talim, dasturlash, meditsina va h.z" type="text" class="form-control"
+                id="project-direction" aria-describedby="basic-addon3">
         </div>
+
+
+        <label for="basic-url" class="form-label">Loyiha rahbarining F.I.Sh:</label>
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Loyiha rahbarining F.I.Sh:</span>
-            <input type="text" class="form-control" placeholder="familya, ism, sharif" aria-label="Username" aria-describedby="basic-addon1">
+            <input required placeholder="familya, ism, sharif" type="text" class="form-control" id="owner-name"
+                aria-describedby="basic-addon3">
         </div>
+
+        <label for="basic-url" class="form-label">Loyihani qiymati</label>
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Loyihani qiymati</span>
-            <input type="text" class="form-control" placeholder="ming.sumda" aria-label="Username" aria-describedby="basic-addon1">
+            <input required placeholder="ming.sumda" type="text" class="form-control" id="project-value"
+                aria-describedby="basic-addon3">
         </div>
+
+        <label for="basic-url" class="form-label">Tel raqam:</label>
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Tel raqam: +998</span>
-            <input type="text" class="form-control" placeholder="(12) 123-45-67" aria-label="Username" aria-describedby="basic-addon1">
+            <input required placeholder="+998 (12) 123-45-67" type="text" class="form-control" id="phone-number"
+                aria-describedby="basic-addon3">
         </div>
+
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Loyiha haqida</label>
-            <textarea placeholder="Qisqacha ma'lumot..." class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            <label for="exampleFormControlTextarea1" class="form-label">Loyiha haqida:</label>
+            <textarea required placeholder="Qisqacha ma'lumot..." class="form-control" id="about-project"
+                rows="3"></textarea>
+        </div>
+        <button id="form" type="submit" class="btn btn-primary">Primary</button>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
