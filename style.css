@@ -31,6 +31,9 @@ img{
     .logo-text{
         flex-direction: column;
     }
+    .logo{
+        margin: 100px;
+    }
 
 }
 
