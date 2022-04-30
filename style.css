@@ -7,6 +7,7 @@
 body{
     padding: 100px;
     text-align: justify;
+    background: linear-gradient( #cfd9df, #e2ebf0);
 }
 
 .logo-text{
@@ -20,6 +21,7 @@ body{
     border-radius: 15px;
     box-shadow: 0 0 25px #cecece, 0 0 5px #414141;;
     padding: 10px;
+    background-color: #fff;
 }
 
 img{
